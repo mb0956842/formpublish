@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who are you?</title>
+    <link href="styles.css" rel="StyleSheet">
+</head>
+
+<body>
+    <form action="#" method="get">
+        <h1>Who are you?</h1>
+
+        <fieldset>
+            <legend>About you</legend>
+            
+            <div class="row">
+                <div class="field">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" class="standard-input" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="JohnDoe@example.com" class="standard-input" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="standard-input" required>
+                </div>
+                <div class="field">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" class="standard-input" min="5" max="99" required>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose One</legend>
+            <h2>How will you get there?</h2>
+            <div class="options">
+                <div class="option">
+                    <input type="radio" id="bus" name="transportation" value="bus">
+                    <label for="bus">Stolen School Bus</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="car" name="transportation" value="car">
+                    <label for="car">Family car(with permission of cource)</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="bike" name="transportation" value="bike">
+                    <label for="bike">Bike w/ Trainging Wheels</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="walk" name="transportation" value="walk">
+                    <label for="walk">Your own car(you don't have one do you?)</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <label for="year">Year</label>
+                    <select name="year" id="year">
+                        <option value="">Select a year</option>
+                        <option value="1">Freshmen</option>
+                        <option value="2">Sophomore</option>
+                        <option value="3">Junior</option>
+                        <option value="4">Senior</option>
+                    </select>
+                </div>
+                <div class="field">
+                    
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+
+        </fieldset>
+        
+        <fieldset>
+
+        </fieldset>
+
+        <div>
+            <button type="reset" class="reset-button">Clear Form</button>
+            <button type="submit" class="submit-button">Sign Up</button>
+        </div>
+    </form>
+</body>
+
+</html>
